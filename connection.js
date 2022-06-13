@@ -4,10 +4,10 @@ const { promisify } =require('util');
 //promesa -- una operacion asincrona
 //configurar la coneccion a la base de datos
 const connection = mysql.createPool({
-    host: 'localhost',
-    user: 'newuser',
-    password: 'prueba123',
-    database: 'das_proyecto_final_db'
+    host: 'bju8bktws9njnxosg1f4-mysql.services.clever-cloud.com',
+    user: 'udhczqlwhgyaue8b',
+    password: 'PYlSiLMiZ2IcXzstSoOg',
+    database: 'bju8bktws9njnxosg1f4'
 });
 
 
